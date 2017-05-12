@@ -19,11 +19,6 @@ firebase.auth().onAuthStateChanged((user) => {
   }
 });
 
-// Load foundation
-// $(document).foundation();
-
-// App css
-// require('style!css!sass!applicationStyles')
 
 ReactDOM.render(
   <Provider store={store}>
